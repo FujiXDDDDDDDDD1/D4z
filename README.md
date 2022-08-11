@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("TITLE", "DarkTheme")
+local Window = Library.CreateLib("D4z Hiub", "Synapse")
 
 local Tab = Window:NewTab("MAIN")
 local Section = Tab:NewSection("Driving Simulator")
@@ -19,6 +19,8 @@ local Section = Tab:NewSection("Clicker Simulator")
 Section:NewButton("My Hello Kitty Cafe", "D4z", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/acezx-programer/ToolWare/main/OpenBeta/clicksim.lua"))
 end)
+
+local Section = Tab:NewSection("Settings")
 
 Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.M, function()
 	Library:ToggleUI()
